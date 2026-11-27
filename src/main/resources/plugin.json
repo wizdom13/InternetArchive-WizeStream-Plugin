@@ -1,0 +1,15 @@
+{
+  "pluginId": "org.wizestream.plugin.internetarchive",
+  "name": "Internet Archive",
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "host": "wizestream",
+  "apiVersion": "2.0",
+  "minHostVersionCode": 1052002,
+  "minAndroidSdk": 24,
+  "requiredCapabilities": [],
+  "author": "WizeStream contributors",
+  "entryClass": "org.wizestream.plugin.internetarchive.InternetArchivePlugin",
+  "description": "Search and play public Internet Archive audio and video items with individual track selection."
+}
+

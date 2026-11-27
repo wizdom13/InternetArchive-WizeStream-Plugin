@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "identifier": "big-buck-bunny-trailer",
+    "mediatype": "movies",
+    "title": "Big Buck Bunny Trailer",
+    "description": "Big Buck Bunny<br />",
+    "publicdate": "2023-01-27 03:04:17"
+  },
+  "files": [
+    {"name": "Big-buck-bunny_trailer.mp4", "source": "derivative", "format": "h.264", "original": "Big-buck-bunny_trailer.webm", "size": "2931940", "length": "32.54", "width": "640", "height": "360"},
+    {"name": "Big-buck-bunny_trailer.webm", "source": "original", "format": "WebM", "size": "2165175", "length": "32.48", "width": "640", "height": "360"},
+    {"name": "__ia_thumb.jpg", "source": "original", "format": "Item Tile"},
+    {"name": "big-buck-bunny-trailer.thumbs/Big-buck-bunny_trailer_000001.jpg", "source": "derivative", "format": "Thumbnail", "original": "Big-buck-bunny_trailer.webm"},
+    {"name": "big-buck-bunny-trailer_archive.torrent", "source": "metadata", "format": "Archive BitTorrent"}
+  ]
+}
