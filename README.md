@@ -1,8 +1,21 @@
 # Internet Archive for WizeStream
 
-A native **WizeStream API 2.0** plugin for public Internet Archive audio and video items. Version **1.0.0**, version code **1**. Requires **WizeStream 1.52.2 or newer** (`1052002`) and **Android 7.0 / API 24 or newer**.
+A native **WizeStream API 2.0** plugin for public Internet Archive audio and video items. Version **1.0.1**, version code **2**. Requires **WizeStream 1.52.2 or newer** (`1052002`) and **Android 7.0 / API 24 or newer**.
 
 This source is prepared for review. A public repository, publisher signing key and installable signed release still need to be set up; no release is implied by the presence of these workflows.
+
+## Service icon
+
+Version 1.0.1 includes a dedicated Internet Archive icon in the signed plugin package. The
+manifest declares `"icon": "icon.png"`; WizeStream loads it for its service selector after
+installing this version and restarting. The icon uses a transparent, single-color design
+so the host can tint it for light and dark themes. Older installed packages without the
+icon continue to show the generic plugin symbol until updated.
+
+The [editable vector and attribution](artwork/README.md) are included. `pluginPackage`
+verifies that the declared image is present in the final archive, decodes, is no larger
+than 256 KiB, and fits within 512 × 512 pixels. Replacing the icon changes the signed
+package, so retain the publisher key and increment `versionCode` for published updates.
 
 ## What it supports
 
@@ -58,7 +71,7 @@ cd ../WizeStream
 The package is written to:
 
 ```text
-build/repo/internetarchive-wizestream-1.ppp
+build/repo/internetarchive-wizestream-2.ppp
 ```
 
 The DEX compilation profile matches the host at min API 23; the manifest declares the actual minimum supported device API as 24. R8/D8 8.13.19 is pinned because the Build Tools bundled compiler cannot rewrite the Kotlin 2.3 metadata used here. The package task verifies that host-provided class namespaces are absent.
