@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.wizestream.plugin.internetarchive.ArchiveSearchTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-27T17:45:04.522Z" hostname="f416c1480567" time="0.019">
+  <properties/>
+  <testcase name="rejectsChangedQueryHostOrMissingPosition" classname="org.wizestream.plugin.internetarchive.ArchiveSearchTest" time="0.002"/>
+  <testcase name="rejectsUnboundedQueryOrPageValues" classname="org.wizestream.plugin.internetarchive.ArchiveSearchTest" time="0.001"/>
+  <testcase name="unsupportedRestrictedAndInvalidEntriesAreSkipped" classname="org.wizestream.plugin.internetarchive.ArchiveSearchTest" time="0.001"/>
+  <testcase name="doesNotPageBeyondProviderWindow" classname="org.wizestream.plugin.internetarchive.ArchiveSearchTest" time="0.003"/>
+  <testcase name="searchTextCannotEscapeThePublicMediaScope" classname="org.wizestream.plugin.internetarchive.ArchiveSearchTest" time="0.001"/>
+  <testcase name="repeatedPagePositionIsRejected" classname="org.wizestream.plugin.internetarchive.ArchiveSearchTest" time="0.002"/>
+  <testcase name="malformedSearchResponsesFailClearly" classname="org.wizestream.plugin.internetarchive.ArchiveSearchTest" time="0.0"/>
+  <testcase name="shortOrEmptyResponsesStopDespiteStaleTotal" classname="org.wizestream.plugin.internetarchive.ArchiveSearchTest" time="0.001"/>
+  <testcase name="resultsAreItemPlaylistsWithUnknownTrackCount" classname="org.wizestream.plugin.internetarchive.ArchiveSearchTest" time="0.0"/>
+  <testcase name="fullPagesAdvanceWithinTheSameQuery" classname="org.wizestream.plugin.internetarchive.ArchiveSearchTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

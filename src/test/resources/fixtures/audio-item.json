@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "identifier": "neutral-audio-fixture",
+    "mediatype": "audio",
+    "title": "A public nature recording",
+    "creator": ["Field Recordist", "Public Sound Library"],
+    "description": "<p>Two recorded walks &amp; their surroundings.</p>",
+    "publicdate": "2026-01-02 03:04:05",
+    "licenseurl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "uploader": "private-contact@example.invalid"
+  },
+  "files": [
+    {"name": "02 River.flac", "source": "original", "format": "Flac", "title": "River", "track": "2/2", "length": "02:03.5", "size": "40000"},
+    {"name": "02 River.mp3", "source": "derivative", "format": "VBR MP3", "original": "02 River.flac", "length": "123.5", "size": "10000"},
+    {"name": "01 Forest.flac", "source": "original", "format": "Flac", "title": "Forest", "track": "1/2", "length": "01:01", "size": "40000"},
+    {"name": "01 Forest.mp3", "source": "derivative", "format": "128Kbps MP3", "original": "01 Forest.flac", "length": "61.25", "bitrate": "128", "size": "10000"},
+    {"name": "01 Forest.ogg", "source": "derivative", "format": "Ogg Vorbis", "original": "01 Forest.flac", "length": "61.25", "size": "9000"},
+    {"name": "01 Forest.png", "source": "derivative", "format": "PNG", "original": "01 Forest.flac", "size": "1000"},
+    {"name": "private.mp3", "source": "original", "format": "VBR MP3", "private": "true", "size": "10000"},
+    {"name": "../escape.mp3", "format": "VBR MP3", "size": "1000"},
+    {"name": "neutral-audio-fixture_files.xml", "format": "Metadata"},
+    {"name": "neutral-audio-fixture_archive.torrent", "format": "Archive BitTorrent"}
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.wizestream.plugin.internetarchive.ArchiveExtractorsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-27T17:45:04.199Z" hostname="f416c1480567" time="0.298">
+  <properties/>
+  <testcase name="unlistedDirectFileCannotBypassMetadataAvailability" classname="org.wizestream.plugin.internetarchive.ArchiveExtractorsTest" time="0.213"/>
+  <testcase name="malformedHtmlOrRedirectToLoginCannotBecomePlayableMedia" classname="org.wizestream.plugin.internetarchive.ArchiveExtractorsTest" time="0.002"/>
+  <testcase name="clearHttpFailuresAndUnavailableMetadataAreReported" classname="org.wizestream.plugin.internetarchive.ArchiveExtractorsTest" time="0.002"/>
+  <testcase name="playlistPagesRemainBoundToOneItemAndReuseMetadata" classname="org.wizestream.plugin.internetarchive.ArchiveExtractorsTest" time="0.051"/>
+  <testcase name="playlistUsesHostDownloaderAndExposesEveryDistinctTrack" classname="org.wizestream.plugin.internetarchive.ArchiveExtractorsTest" time="0.003"/>
+  <testcase name="videoReturnsProgressiveFormatsWithoutInventingLiveOrAdaptiveStreams" classname="org.wizestream.plugin.internetarchive.ArchiveExtractorsTest" time="0.006"/>
+  <testcase name="searchDownloadsOnlyRequestedApiPages" classname="org.wizestream.plugin.internetarchive.ArchiveExtractorsTest" time="0.012"/>
+  <testcase name="streamResolvesAlternateUrlWithoutMixingSeparateRecordings" classname="org.wizestream.plugin.internetarchive.ArchiveExtractorsTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.wizestream.plugin.internetarchive.ArchiveUrlsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-27T17:45:04.543Z" hostname="f416c1480567" time="0.005">
+  <properties/>
+  <testcase name="rejectsForeignHostsUserInfoAndNonWebSchemes" classname="org.wizestream.plugin.internetarchive.ArchiveUrlsTest" time="0.001"/>
+  <testcase name="rejectsTraversalAndAmbiguousPathEncoding" classname="org.wizestream.plugin.internetarchive.ArchiveUrlsTest" time="0.001"/>
+  <testcase name="fileNamesPreserveSpacesUnicodePlusAndNestedPaths" classname="org.wizestream.plugin.internetarchive.ArchiveUrlsTest" time="0.0"/>
+  <testcase name="rejectsUnsupportedDetailsSubpagesAndMissingNames" classname="org.wizestream.plugin.internetarchive.ArchiveUrlsTest" time="0.001"/>
+  <testcase name="literalPlusInPathIsNotDecodedAsSpace" classname="org.wizestream.plugin.internetarchive.ArchiveUrlsTest" time="0.0"/>
+  <testcase name="percentEncodedFilenameIsEncodedOnlyOncePerRoundTrip" classname="org.wizestream.plugin.internetarchive.ArchiveUrlsTest" time="0.001"/>
+  <testcase name="detailsArePlaylistsAndDownloadsAreStreams" classname="org.wizestream.plugin.internetarchive.ArchiveUrlsTest" time="0.0"/>
+  <testcase name="itemLinksNormalizeToPermanentHttpsUrls" classname="org.wizestream.plugin.internetarchive.ArchiveUrlsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

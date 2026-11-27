@@ -1,0 +1,85 @@
+{
+  "project": "InternetArchive-WizeStream-Plugin",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "hostSdkCommit": "68432a57853aa2c0ffdbe4f7c163c2fedd01c18e",
+  "minHostVersionCode": 1052002,
+  "minAndroidSdk": 24,
+  "checks": {
+    "offlineTests": "passed",
+    "kotlinCompilation": "passed",
+    "dexCompilation": "passed",
+    "packageChecks": "passed",
+    "workflowActionlint": "passed",
+    "gitDiffCheck": "passed",
+    "independentReview": "no blockers",
+    "devicePlayback": "not tested",
+    "signedRelease": "not published",
+    "githubRepository": "not created"
+  },
+  "testSuites": [
+    {
+      "suite": "org.wizestream.plugin.internetarchive.ArchiveExtractorsTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "org.wizestream.plugin.internetarchive.ArchiveItemTest",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "org.wizestream.plugin.internetarchive.ArchiveSearchTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "org.wizestream.plugin.internetarchive.ArchiveUrlsTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "unsignedPackage": {
+    "filename": "internetarchive-wizestream-1.ppp",
+    "sizeBytes": 100932,
+    "sha256": "b28fef48031619c8d52e5cb12718ab612741fc8ad4947a32b000d1f73707fd94"
+  },
+  "sourceFiles": {
+    ".gitattributes": "97f84c8d5bdae067d7c95b89a8bec8f5af5b576ad043affb4e54212f61bed8cc",
+    ".github/workflows/ci.yml": "84e0c6badc6d2a4c526837a668217eb74512478cab59c8f9073be0e1be475f60",
+    ".github/workflows/release.yml": "9a09007d56ffd9448a84d40f08df6333457c64c57a02464f06167b8794daedf3",
+    ".gitignore": "7d448439bb9f0e9d2c331a949a5a6ac7ba99bf25d6f4934da109e1428e3309e9",
+    "LICENSE": "e57f1c320b8cf8798a7d2ff83a6f9e06a33a03585f6e065fea97f1d86db84052",
+    "README.md": "5a5fa903bd37a3cd508f7f3e3c413ea1989f26ec9c85dfc55278d9ad4d431901",
+    "build.gradle.kts": "c6a18f4b0607ef585df573e48aec33eff8a98948831d3d9bb2f9dae0cde15ff6",
+    "gradle.properties": "d28b1560bb2b7ff0c4774d5dfe9f847972eaa089637c0fae0a41e2219ac617b7",
+    "settings.gradle.kts": "9c56786d4c78791fa54c33f4215347f63972429e360e66c756a62c949b616a93",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/ArchiveApi.kt": "1763f56ad54ed35af580f025a32f8cb1215a6a64487eb287e4836347398f34d0",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/ArchiveFiles.kt": "aef3015bb9322be7725d2b338e2914d8b6acc9abd39e4290aace379fce0f8659",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/ArchiveItem.kt": "8a21adbe7519cc78a6d01026f621ea061acf46473c930b42627187b851ee09cc",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/ArchivePlaylistExtractor.kt": "6bf150eee6c36e0ca59d5fed9582584dc757dd713a0c690fd1938e3cf7b2b7f4",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/ArchiveSearch.kt": "54a21dd16ce255c5e5bba10d3c645df92f8f2953c23b29daf68c7d5d7655334e",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/ArchiveSearchExtractor.kt": "bf65d380196e8e9d9882e6d75bd875dd9f212e84cbba7e1a6d093a993aa93334",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/ArchiveStreamExtractor.kt": "a8ef46f8c73f8a2f35e1da9bf7324fc09e0fdcf233d24bcc92cb31d2dd8f0f18",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/ArchiveTrackInfo.kt": "67032a4eab8db576ba87c55463eed53dc46f00a327a35bac204b74b33cb2f66a",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/ArchiveUrls.kt": "6b2a5a1e583d275012c4fb3117065162dae2275c70ffbcdbbbef7470dcac174b",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/InternetArchivePlugin.kt": "d4275a5603f2bd8f11f50841c67a9bf8f97e2a4f53905a889e37002182d5893d",
+    "src/main/kotlin/org/wizestream/plugin/internetarchive/InternetArchiveService.kt": "c764b9af4a09778746844c1fd9b70b1741cd251c609a924514510e294ef13943",
+    "src/main/resources/plugin.json": "c92f9fc77955caccdad74eef5e50085063cc5b75a3720d490b8c7f1ef002ccfb",
+    "src/test/kotlin/org/wizestream/plugin/internetarchive/ArchiveExtractorsTest.kt": "a6828efbd633f608b3bdd69f86489efacae63a7528581226881126537732b34f",
+    "src/test/kotlin/org/wizestream/plugin/internetarchive/ArchiveItemTest.kt": "accd64df48a274bd177ad61886556f31b640688f7ebdeea628cfcaa7851310a3",
+    "src/test/kotlin/org/wizestream/plugin/internetarchive/ArchiveSearchTest.kt": "44b9998a75bebfadaeef3fcc8acbd66794c098fe162fef2727b4de9954661434",
+    "src/test/kotlin/org/wizestream/plugin/internetarchive/ArchiveUrlsTest.kt": "a2ea881b009a5774f4d54e4d9b15b99078f74b8267c7d7ddee47bc29b3b5d226",
+    "src/test/kotlin/org/wizestream/plugin/internetarchive/FixtureSupport.kt": "780f32a3fc33c32fdc6608ad873a437b7e139dd626c45197c16b05d12462f327",
+    "src/test/resources/fixtures/audio-item.json": "9783ac84627cee631f09d7ea8047da4fc629783ce18484bc422c3a73dbfba94a",
+    "src/test/resources/fixtures/video-item.json": "4da20b989209bc477e1dcdb675e6bf1ab401c86b474006f1a7f651a888d0e7a0"
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.wizestream.plugin.internetarchive.ArchiveItemTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-11-27T17:45:04.501Z" hostname="f416c1480567" time="0.018">
+  <properties/>
+  <testcase name="falseRestrictionFlagsDoNotHidePublicMedia" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.002"/>
+  <testcase name="originalAndAlternativeLinksSelectTheSameTrack" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.001"/>
+  <testcase name="durationAndDatesRejectInvalidValues" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.001"/>
+  <testcase name="optionalMetadataListsAndHtmlAreHandledWithoutExposingUploaderEmail" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.001"/>
+  <testcase name="optionalMetadataCanBeAbsent" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.001"/>
+  <testcase name="privateMissingAndUnsafeFilesAreNeverReturned" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.002"/>
+  <testcase name="rejectsMismatchedItemIdentity" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.001"/>
+  <testcase name="rejectsExplicitRestrictionFlagsAtEitherLevel" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.002"/>
+  <testcase name="transitiveDerivativesKeepOriginalIdentity" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.001"/>
+  <testcase name="similarFileNamesAreNotGuessedToBeAlternateEncodings" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.0"/>
+  <testcase name="audioDerivativesGroupIntoDistinctOrderedTracks" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.001"/>
+  <testcase name="doesNotMisclassifyTheoraOrSidecarsAsAudio" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.0"/>
+  <testcase name="missingOriginalKeepsARealDownloadIdentity" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.0"/>
+  <testcase name="collectionsBooksAndUnsupportedOnlyItemsHaveClearErrors" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.002"/>
+  <testcase name="realTrimmedVideoMetadataExposesBothProgressiveEncodings" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.001"/>
+  <testcase name="duplicateNamesAndOriginalCyclesFailClearly" classname="org.wizestream.plugin.internetarchive.ArchiveItemTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
